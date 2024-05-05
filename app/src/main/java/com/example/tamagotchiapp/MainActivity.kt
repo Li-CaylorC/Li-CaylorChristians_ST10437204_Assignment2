@@ -1,6 +1,7 @@
 package com.example.tamagotchiapp
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btn1 = findViewById<Button>(R.id.btn1)
         btn1.setOnClickListener {
 
-            val intent = intent(this, Game::class.java)
+            val intent = Intent(this, DogcareActivity::class.java)
 
             startActivity(intent)
         }
