@@ -12,4 +12,5 @@ instructions:
 11.when you are satisfied you may proceed and close app 
 12.Enjoy!
 
-youtube link: 
+youtube link: https://youtu.be/9HPj01v31Lk
+
